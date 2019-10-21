@@ -4,7 +4,7 @@ Console.js is a Bookmarklet that allows for use of a similar to the Inspect Elem
 
 ### How do I use console.js?
 
-Click and drag [this]() link into your Bookmarks bar. Then simply click on the link on the page you wish to debug.
+Go [here]() and drag the robot into your bookmarks bar.
 
 ### Other usecases
 Console.js could also be used to always have a log visible on the page. The program is licensed under the MIT license, so you can freely modify it to fit your site.
