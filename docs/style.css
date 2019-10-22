@@ -1,0 +1,85 @@
+body {
+	background-color: #242038;
+}
+#bg {
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	position: fixed;
+}
+#message {
+	top: 15%;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	color: #ffffff;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: center;
+}
+#bookmarklet-container {
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	position: fixed;
+	display: flex;
+	align-items: center;
+}
+.bookmarklet {
+	left: 38%;
+	width: 20%;
+	position: absolute;
+	background-color: #32a0eb;
+	color: #ffffff;
+	padding: 2%;
+	border-radius: 2em;
+	text-decoration: none;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: center;
+}
+#github {
+	bottom: 2.5%;
+	left: 37%;
+	width: 25%;
+	position: fixed;
+	background-color: #5F5C6E;
+	opacity: 0.5;
+	color: #ffffff;
+	margin: 0;
+	padding: 0.5%;
+	border-radius: 2em;
+	text-decoration: none;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: center;
+}
+#github svg {
+	top: 0.25em;
+	width: 1em;
+	height: 1em;
+	position: relative;
+}
+#twitter {
+	bottom: 1.5em;
+	left: 1.5em;
+	width: 2em;
+	height: 2em;
+	margin: 0;
+	position: fixed;
+	justify-content: center;
+	transform-origin: 50% 50%;
+	transform: scale(1,1);
+	transition: transform;
+	transition-duration: 0.5s;
+}
+#twitter:hover {
+	transform: scale(1.25,1.25);
+}
+#twitter svg {
+	top: 0.5em;
+	width: 1em;
+	height: 1em;
+	position: relative;
+}
